@@ -1,0 +1,3 @@
+classNumber,className,classTerm,classTermDuration,classWeekday,classTime,classTimeDuration,onlineURL,classPlace,classTeacher
+DS101,教科A,1,1,Tuesday,1,2,https://zoom.us/hogehoge,,"先生A"
+DS102,教科B,1,2,Friday,3,2,,A1401,"先生D"
