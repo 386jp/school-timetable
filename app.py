@@ -85,12 +85,13 @@ class muSchoolTimetable:
 				locationText = "Online"
 				if classData["onlineURL"] == None:
 					locationText = self.univName + " " + classData["classPlace"]
-				else:
-					locationText += ": " + classData["onlineURL"]
 				event.add('location', locationText)
 
 				# Event Description
-				event.add('description', 'Teacher: ' + classData["classTeacher"])
+				descriptionText = 'Teacher: ' + classData["classTeacher"]
+				if classData["onlineURL"] != None:
+					descriptionText += "\nLink for Online Conference: " + classData["onlineURL"]
+				event.add('description', descriptionText)
 
 				# Event Time Start
 				## Date
