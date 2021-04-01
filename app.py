@@ -131,12 +131,12 @@ class muSchoolTimetable:
 univName = "武蔵野大学"
 # 時間割
 classTime = [
-	{"start": "9:00", "end": "10:40"},
-	{"start": "10:50", "end": "12:30"},
-	{"start": "13:20", "end": "15:00"},
-	{"start": "15:10", "end": "16:50"},
-	{"start": "17:00", "end": "18:40"},
-	{"start": "18:50", "end": "20:30"},
+	{"start": "8:50", "end": "10:30"},
+	{"start": "10:40", "end": "12:20"},
+	{"start": "13:10", "end": "14:50"},
+	{"start": "15:00", "end": "16:40"},
+	{"start": "16:50", "end": "18:30"},
+	{"start": "18:40", "end": "20:20"},
 ]
 lunchBreakAfter = 2
 # 学期初めの日
