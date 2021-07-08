@@ -8,8 +8,8 @@ timetable.csv.sampleにexampleが載っているので、それをtimetable.csv�
 
 一応Google Calendarにインポートできることは確認済みです
 
-'''pipenv install'''
+```pipenv install```
 
 run:
 
-'''pipenv run python app.py'''
+```pipenv run python app.py```
